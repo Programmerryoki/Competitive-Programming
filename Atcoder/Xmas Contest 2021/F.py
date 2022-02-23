@@ -1,0 +1,3 @@
+ans = "DEAED"
+
+print(ans)

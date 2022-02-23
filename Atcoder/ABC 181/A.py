@@ -1,0 +1,1 @@
+print("White" if not int(input())&1 else "Black")

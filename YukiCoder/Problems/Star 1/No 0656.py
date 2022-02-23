@@ -1,0 +1,1 @@
+print(sum([int(i) if i != "0" else 10 for i in input()]))

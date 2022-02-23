@@ -1,0 +1,1 @@
+N,M,Q = [int(i) for i in input().split()]

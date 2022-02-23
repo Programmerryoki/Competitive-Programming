@@ -1,0 +1,1 @@
+print(len(set([input().replace("-", " ").lower() for i in range(int(input()))])))

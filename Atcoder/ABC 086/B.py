@@ -1,0 +1,1 @@
+print("Yes" if (int("".join(input().split()))**0.5).is_integer() else "No")

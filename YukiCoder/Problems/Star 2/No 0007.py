@@ -1,0 +1,3 @@
+primes = []
+
+N = int(input())
