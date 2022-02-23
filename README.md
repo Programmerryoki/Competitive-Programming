@@ -5,7 +5,7 @@ I mainly join Atcoder, Codeforces, and Kattis. I also join Leetcode contests, bu
 
 List Of Accounts:
 
-Atcoder (https://atcoder.jp/users/Programmerryoki)
-LeetCode (https://leetcode.com/Programmerryoki/)
-CodeForces (https://codeforces.com/profile/Programmerryoki)
-Kattis (https://open.kattis.com/users/ryoki-kunii)
+- Atcoder (https://atcoder.jp/users/Programmerryoki)
+- LeetCode (https://leetcode.com/Programmerryoki/)
+- CodeForces (https://codeforces.com/profile/Programmerryoki)
+- Kattis (https://open.kattis.com/users/ryoki-kunii)
