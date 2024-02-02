@@ -27,10 +27,14 @@ k = 4
 mp = 0
 mul = lambda z: reduce(lambda x,y: x*y, z)
 # horizontal, vertical
-for i in range(size - k + 1):
+for i in range(size):
     for j in range(size):
-        mp = max(mp, mul([grid[j][i+a] for a in range(k)]), mul([grid[i+a][j] for a in range(k)]))
+        mp = max(mp, mul([grid[j][i+a] for a in range(k)] if i+k < size else [0]),
+                 mul([grid[i+a][j] for a in range(k)] if i+k < size else [0]))
 # diag
-for i in range(size - k + 1):
+for i in range(size):
     for j in range(size):
-        mp = max(mp, mul([grid[j][i+a] for a in range(k)]), mul([grid[i+a][j] for a in range(k)]))
+        mp = max(mp, mul([grid[j+a][i+a] for a in range(k)] if i+k < size and j+k < size else [0]),
+                 mul([grid[j+a][i-a] for a in range(k)] if j+k < size and i-k >= 0 else [0]))
+
+print(mp)
